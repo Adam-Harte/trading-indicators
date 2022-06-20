@@ -36,6 +36,8 @@ jobs:
         run: npm ci
 
   validate:
+    needs: install
+
     runs-on: ubuntu-latest
 
     steps:
@@ -44,10 +46,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm test
-      - run: npm lint
+      - run: npm run test
+      - run: npm run lint
 
   build:
+    needs: [install, validate]
+
     runs-on: ubuntu-latest
 
     steps:
@@ -56,4 +60,4 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm build
+      - run: npm run build
