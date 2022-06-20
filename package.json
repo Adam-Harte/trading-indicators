@@ -2,14 +2,14 @@
   "name": "ti-js",
   "version": "0.0.1",
   "description": "package for calculating trading indicators",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "files": [
-    "build"
+    "dist"
   ],
-  "types": "build/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "lint": "eslint . --ext .ts --ignore-pattern node_modules/",
     "lint:fix": "npm run lint -- --fix",
     "prettier": "prettier --write \"src/**/*.{ts,json}\"",
     "prettier:check": "prettier --check \"src/**/*.{ts,json}\"",
@@ -29,11 +29,14 @@
   "devDependencies": {
     "@types/jest": "^28.1.2",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.18.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^8.0.0",
     "jest": "^28.1.1",
