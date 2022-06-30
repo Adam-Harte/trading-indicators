@@ -1,5 +1,5 @@
 {
-  "name": "ti-js",
+  "name": "trade-indicators-js",
   "version": "0.0.0-development",
   "description": "package for calculating trading indicators",
   "main": "dist/index.js",
