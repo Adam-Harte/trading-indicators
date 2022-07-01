@@ -5,6 +5,7 @@ export { getAtr } from './volatilityIndicators/getAtr';
 export { getAroon } from './momentumIndicators/getAroon';
 export { getAroonOsc } from './momentumIndicators/getAroonOsc';
 export { getBop } from './momentumIndicators/getBop';
+export { getCmo } from './momentumIndicators/getCmo';
 export { getDm } from './momentumIndicators/getDm';
 export { getDi } from './momentumIndicators/getDi';
 export { getDx } from './momentumIndicators/getDx';
