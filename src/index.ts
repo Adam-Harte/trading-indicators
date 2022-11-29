@@ -9,6 +9,7 @@ export { getCmo } from './momentumIndicators/getCmo';
 export { getDm } from './momentumIndicators/getDm';
 export { getDi } from './momentumIndicators/getDi';
 export { getDx } from './momentumIndicators/getDx';
+export { getMfi } from './momentumIndicators/getMfi';
 export { getBb } from './overlapStudies/getBb';
 export { getSar } from './overlapStudies/getSar';
 export { getSma } from './overlapStudies/sma';
