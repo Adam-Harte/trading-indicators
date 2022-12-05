@@ -14,6 +14,7 @@ export { getMfi } from './momentumIndicators/getMfi';
 export { getRsi } from './momentumIndicators/getRsi';
 export { getStoch, MaTypes } from './momentumIndicators/getStoch';
 export { getUltOsc } from './momentumIndicators/getUltOsc';
+export { getWillR } from './momentumIndicators/getWillR';
 export { getBb } from './overlapStudies/getBb';
 export { getSar } from './overlapStudies/getSar';
 export { getSma } from './overlapStudies/sma';
