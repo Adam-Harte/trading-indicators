@@ -23,3 +23,4 @@ export { getSma } from './overlapStudies/sma';
 export { getWma } from './overlapStudies/wma';
 export { getEma } from './overlapStudies/ema';
 export { getTema } from './overlapStudies/getTema';
+export { getDema } from './overlapStudies/getDema';
