@@ -2,6 +2,7 @@ export { getObv } from './volumeIndicators/getObv';
 export { getAdo } from './volumeIndicators/getAdo';
 export { getAdl } from './volumeIndicators/getAdl';
 export { getAtr } from './volatilityIndicators/getAtr';
+export { getTr } from './volatilityIndicators/getTr';
 export { getAroon } from './momentumIndicators/getAroon';
 export { getAroonOsc } from './momentumIndicators/getAroonOsc';
 export { getBop } from './momentumIndicators/getBop';
